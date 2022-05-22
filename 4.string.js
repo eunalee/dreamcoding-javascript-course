@@ -4,7 +4,7 @@ string = `안녕!`;
 console.log(string);
 
 // 특수문자 출력하는법
-string = "'안녛!'";
+string = "'안녕!'";
 console.log(string);
 
 string = '안녕!\n은아야!\t\t내 이름은\\\u09AC';
