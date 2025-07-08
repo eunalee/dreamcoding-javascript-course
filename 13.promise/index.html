@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // fetch() : Promise 리턴
+        // json() : body 안에 문자열을 파싱해서 JSON 형태의 objcet 로 변환한 결과 리턴
+        fetch('https://www.7timer.info/bin/api.pl?lon=113.17&lat=23.09&product=astro&output=json')
+        .then((response) => response.json())
+        .then(console.log);
+    </script>
+</body>
+</html>
